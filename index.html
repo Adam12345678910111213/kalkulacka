@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stiahnuť Kalkulačka++</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            text-align: center;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 90%;
+        }
+
+        .icon {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin: 0 0 10px 0;
+            color: #2c3e50;
+            font-size: 28px;
+        }
+
+        p {
+            color: #7f8c8d;
+            margin-bottom: 30px;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background-color: #2ecc71;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: background 0.2s, transform 0.1s;
+            box-shadow: 0 4px 6px rgba(46, 204, 113, 0.3);
+        }
+
+        .download-btn:hover {
+            background-color: #27ae60;
+            transform: translateY(-2px);
+        }
+
+        .download-btn:active {
+            transform: translateY(0);
+        }
+
+        .info-tag {
+            margin-top: 25px;
+            font-size: 12px;
+            color: #bdc3c7;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Ak máš v zložke ikona.png, ukáže sa aj na webe -->
+        <img src="ikona.png" alt="Logo" class="icon" onerror="this.src='https://flaticon.com'">
+
+        <h1>Kalkulačka++</h1>
+        <p>Stiahnite si pokročilú kalkulačku pre Windows s podporou klávesnice, percent, mocnín a odmocnín.</p>
+
+        <!-- Tlačidlo, ktoré odkazuje priamo na tvoj EXE súbor -->
+        <a href="Kalkulacka++.exe" class="download-btn" download>Stiahnuť pre Windows</a>
+
+        <div class="info-tag">Verzia 2.0 • Formát: .EXE (Samostatný program)</div>
+    </div>
+
+</body>
+
+</html>
